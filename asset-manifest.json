@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Sabha/static/css/main.b9bde350.chunk.css",
-    "main.js": "/Sabha/static/js/main.e61a8864.chunk.js",
-    "main.js.map": "/Sabha/static/js/main.e61a8864.chunk.js.map",
+    "main.js": "/Sabha/static/js/main.0478b25e.chunk.js",
+    "main.js.map": "/Sabha/static/js/main.0478b25e.chunk.js.map",
     "runtime-main.js": "/Sabha/static/js/runtime-main.b1e1d056.js",
     "runtime-main.js.map": "/Sabha/static/js/runtime-main.b1e1d056.js.map",
     "static/js/2.1dc1a5a1.chunk.js": "/Sabha/static/js/2.1dc1a5a1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b1e1d056.js",
     "static/js/2.1dc1a5a1.chunk.js",
     "static/css/main.b9bde350.chunk.css",
-    "static/js/main.e61a8864.chunk.js"
+    "static/js/main.0478b25e.chunk.js"
   ]
 }
