@@ -30,7 +30,7 @@ function Sidebar() {
 
       {/* Button -> Tweet */}
       <Button variant="outlined" className="sidebar__tweet" fullWidth>
-        Thanks for being a part!
+        Sabha
       </Button>
     </div>
   );

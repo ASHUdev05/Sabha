@@ -16,9 +16,9 @@ function Feed() {
 
   return (
     <div className="feed">
-      <div className="feed__header">
+      {/*<div className="feed__header">
         <h2>Main</h2>
-      </div>
+  </div>*/}
 
       <TweetBox />
 
