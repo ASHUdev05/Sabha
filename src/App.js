@@ -56,11 +56,12 @@ function App() {
 
 
   return (
+    <div className="app">
     <div className="toggle">
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
       <StyledApp>
-        <button className="button" onClick={() => themeToggler()}>🌙</button>
+        <button className="button" onClick={() => themeToggler()}>{theme === "light" ? "☀️" : "🌙"}</button>
       </StyledApp>
     </ThemeProvider>
       
@@ -80,6 +81,7 @@ function App() {
 
       {/* Feed */}
       <Feed />
+    </div>
     </div>
     </div>
   );
