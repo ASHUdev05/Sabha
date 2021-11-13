@@ -2,18 +2,8 @@ import React, { useState, useEffect } from "react";
 import './App.css';
 import Sidebar from './Sidebar';
 import Feed from "./Feed";
-import db from './firebase';
 const words = ["talk", "share feelings","share ideas","express thoughts","meet new people","make you feel good."];
-let count = 0;
 
-async function getData() {
-  const query = db.collection("posts");
-  const snapshot = await query.get();
-  const size = snapshot.size;
-  count = size;
-};
-
-getData();
 function App() {
   
   const [index, setIndex] = useState(0);
@@ -56,14 +46,13 @@ function App() {
 
   return (
     <div>
-      <div className="nav">
-        <div className="count">Total Messages Delivered: {count}</div>
+      
         <div className="anim">
         <h1>
         A place to {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}
         </h1>
       </div>
-      </div>
+    
     <div className="app">
       {/*<div className="app-header">
       <h3>Sabha</h3>

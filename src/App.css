@@ -12,25 +12,6 @@ body {
     padding: 0 10px;
   }
 
-  .nav {
-    margin-left: 2.5px;
-    height: 35px;
-    width: 1350px;
-    background: lightgreen;
-    border-radius: 20px;
-    padding: 5px;
-    opacity: 50%;
-  }
-
-  .count{
-    margin-left: 500px;
-    width: 220px;
-    background: cyan;
-    border-radius: 20px;
-    padding: 5px;
-    text-align: center;
-  }
-
   .anim{
     pointer-events: none;
     margin-left: 10px;
