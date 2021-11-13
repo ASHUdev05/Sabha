@@ -2,9 +2,20 @@ import React, { useState, useEffect } from "react";
 import './App.css';
 import Sidebar from './Sidebar';
 import Feed from "./Feed";
+import styled, { ThemeProvider } from "styled-components";
+import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";
 const words = ["talk", "share feelings","share ideas","express thoughts","meet new people","make you feel good."];
+const StyledApp = styled.div`
+  color: ${(props) => props.theme.fontColor};
+`;
+
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  const themeToggler = () => {
+    theme === "light" ? setTheme("dark") : setTheme("light");
+  };
   
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
@@ -45,7 +56,13 @@ function App() {
 
 
   return (
-    <div>
+    <div className="toggle">
+      <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+      <GlobalStyles />
+      <StyledApp>
+        <button className="button" onClick={() => themeToggler()}>🌙</button>
+      </StyledApp>
+    </ThemeProvider>
       
         <div className="anim">
         <h1>

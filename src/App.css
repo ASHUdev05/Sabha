@@ -5,11 +5,17 @@ body {
   
   .app {
     display: flex;
-    height: 89.2vh;
-    max-width: 1170px;
+    height: 84.0vh;
+    max-width: 1162px;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0 10px;
+  }
+
+  .toggle{
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 20px;
   }
 
   .anim{
@@ -20,6 +26,14 @@ body {
     border-radius: 20px;
     padding: 5px;
     text-align: center;
+  }
+
+  .button{
+    margin-left: 20px;
+    background: blueviolet;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
   }
 
   .app-header {
