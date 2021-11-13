@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sabha/static/css/main.4f9da732.chunk.css",
+    "main.css": "/Sabha/static/css/main.ff85388c.chunk.css",
     "main.js": "/Sabha/static/js/main.c867dadc.chunk.js",
     "main.js.map": "/Sabha/static/js/main.c867dadc.chunk.js.map",
     "runtime-main.js": "/Sabha/static/js/runtime-main.5cd71ba4.js",
@@ -10,13 +10,13 @@
     "static/js/3.c4f63fc6.chunk.js": "/Sabha/static/js/3.c4f63fc6.chunk.js",
     "static/js/3.c4f63fc6.chunk.js.map": "/Sabha/static/js/3.c4f63fc6.chunk.js.map",
     "index.html": "/Sabha/index.html",
-    "static/css/main.4f9da732.chunk.css.map": "/Sabha/static/css/main.4f9da732.chunk.css.map",
+    "static/css/main.ff85388c.chunk.css.map": "/Sabha/static/css/main.ff85388c.chunk.css.map",
     "static/js/2.2051d5df.chunk.js.LICENSE.txt": "/Sabha/static/js/2.2051d5df.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5cd71ba4.js",
     "static/js/2.2051d5df.chunk.js",
-    "static/css/main.4f9da732.chunk.css",
+    "static/css/main.ff85388c.chunk.css",
     "static/js/main.c867dadc.chunk.js"
   ]
 }
