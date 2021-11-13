@@ -5,10 +5,10 @@ body {
   
   .app {
     display: flex;
-    height: 90.5vh;
-    max-width: 1300px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 89.2vh;
+    max-width: 1170px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0 10px;
   }
 
