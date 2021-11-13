@@ -56,7 +56,7 @@ function TweetBox() {
           value={tweetAvatarImage}
           onChange={(e) => setAvatarImage(e.target.value)}
           className="tweetBox__imageInput"
-          placeholder="Optional: Enter Avatar URL"
+          placeholder="Optional: Enter Avatar URL | default: Dawg_pic"
           type="text"
         />
         <input style={{width: "500px", borderRadius: "20px"}}
