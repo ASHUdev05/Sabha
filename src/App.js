@@ -63,14 +63,14 @@ function App() {
       <StyledApp>
         <button className="button" onClick={() => themeToggler()}>{theme === "light" ? "☀️" : "🌙"}</button>
       </StyledApp>
-    </ThemeProvider>
+    
       
         <div className="anim">
-        <h1>
+        <h1 style={ theme === "light" ? {color: 'black'} : {color: 'cyan'} }>
         A place to {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}
         </h1>
       </div>
-    
+      </ThemeProvider>
     <div className="app">
       {/*<div className="app-header">
       <h3>Sabha</h3>
