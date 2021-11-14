@@ -3,6 +3,9 @@ import './App.css';
 import Sidebar from './Sidebar';
 import Feed from "./Feed";
 import styled, { ThemeProvider } from "styled-components";
+import NavBar from './components/nav-bar'
+import { useAuth0 } from '@auth0/auth0-react';
+
 import { lightTheme, darkTheme, GlobalStyles } from "./themes.js";
 const words = ["talk", "share feelings","share ideas","express thoughts","meet new people","make you feel good."];
 const StyledApp = styled.div`
@@ -55,13 +58,21 @@ function App() {
   }, [blink]);
 
 
+  const { isLoading } = useAuth0();
+
+  if (isLoading) return <div>Loading...</div>
+
+
   return (
+    
     <div className="app">
+      
     <div className="toggle">
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
+      <NavBar /> 
       <StyledApp>
-        <button className="button" onClick={() => themeToggler()}>{theme === "light" ? "☀️" : "🌙"}</button>
+        <button className="button" onClick={() => themeToggler()}>{theme === "light" ? "☀️" : "🌙"}</button>    
       </StyledApp>
     
       
